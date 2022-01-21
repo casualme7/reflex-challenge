@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.reflexSection {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 5px;
+    background-color: whitesmoke;    
+}
+
+.centered {
+    height: 400px;
+    margin: 0 auto;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #0a9396;
+}
+
+.buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.centeredClass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#resetButton {
+    color: red;
+    border: 3px solid red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(63, 3, 3);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#startButton {
+    color: lime;
+    border: 3px solid lime;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(18, 71, 8);
+    cursor: crosshair;
+}
+
+#resetButton:hover {
+    transform: scale(1.2);
+}
+
+.time {
+    margin-top: 4px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px;
+    height: 30px;
+}
+
+.scoreFont {
+    font-size: 30px;
+}
+
+.gameInfo {
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 15px;
+    color: lime;
+    text-shadow: 0px 0px 4px black;
+    font-weight: bold;
+}
+
+#countdownNum {
+    font-size: 100px;
+    font-weight: bold;
+}
